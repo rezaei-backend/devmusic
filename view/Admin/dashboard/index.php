@@ -9,7 +9,9 @@ include_once "../layouts/sidebar.php";
 
 <!-- content -->
 <div class="col-12 col-md-9 col-lg-10 p-4" id="content">
-
+    <?php
+    Check_Flash();
+    ?>
     <h1 class="h3 mb-4">Overview</h1>
     <div class="row g-3">
         <div class="col-sm-6 col-lg-3">
